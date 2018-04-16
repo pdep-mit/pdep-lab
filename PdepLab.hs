@@ -9,10 +9,6 @@ data Raton = UnRaton{
     animo :: String
 } deriving(Show,Eq)
 
-
-type Hierba = (Raton -> Raton)
-
-type Medicamento = (Raton -> Raton )
 --Iteracion  1
 
 estaEnfermoDe :: String -> Raton -> Bool
@@ -86,4 +82,3 @@ vamoACalmarno ratones = undefined
 pesoPromedio :: [Raton] -> Float
 
 pesoPromedio ratones = undefined
-
