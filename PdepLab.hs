@@ -1,14 +1,6 @@
 module PdepLab where
 import Data.List
 
-data Raton = UnRaton{
-    nombre :: String,
-    edad :: Float,
-    peso :: Float,
-    enfermedades :: [String],
-    animo :: String
-} deriving(Show,Eq)
-
 --Iteracion  1
 
 estaEnfermoDe :: String -> Raton -> Bool
@@ -30,8 +22,6 @@ esMasViejoQue unaEdad raton = undefined
 --Iteracion 2
 
 hierbaVerde :: String -> Raton -> Raton
-
-hierbaVerde "vejez" raton  = undefined
 
 hierbaVerde criterio raton  = undefined
 
