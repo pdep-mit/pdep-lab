@@ -13,3 +13,7 @@
 ## Para levantar su solucion en una consola de haskell:
 
   -dentro de la carpeta del proyecto ejecutar: ghci PdepLab.hs 
+
+## Enunciado
+
+https://docs.google.com/document/d/1wjkK-5aX1XIYqneqBc6IlKdx_5sGGsUUIiFxn4Dha5E/edit?usp=sharing
